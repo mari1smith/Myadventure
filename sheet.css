@@ -1,40 +1,45 @@
-.yellow {
- background-color: yellow;
- width: 50%;
- height:20vh;
-  display: inline-block;
+/* https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css */
+
+body{
+	width: 100vw;
+	height:100vh;
 }
 
-.pink   {
- background-color: pink;
- width:25%;
- height:20vh;
- display: inline-block;
-  
- 
+	
+
+@media screen and (max-width: 2000px) {
+
+	.kitten {
+	
+	content:url(images/kitten-large.png);
+	
+		}
 }
-.orange {
- background-color: orange;
- width: 15%;
- height:20vh;
-  display: inline-block;
+	
+@media screen and (max-width: 1800px) {
+
+	.kitten {
+	
+	content:url(images/kitten-medium.png);
+	
+		}
 }
 
-.white  {
- background-color: white;
- width:50%;
- height:75vh;
- display: inline-block;
- border: 2px solid black;
-  
- 
+@media screen and (max-width: 600px) {
+
+	.kitten {
+	
+	content:url(images/kitten-small.png);
+	
+		}
 }
-.black  {
- background-color: black;
- width:40%;
- height:75vh;
- display: inline-block;
- border: 2px solid black;
-  
- 
+
+@media screen and (max-width: 400px) {
+
+	.kitten {
+	
+	content:url(images/kittyloaf.gif);
+	
 }
+}
+	
