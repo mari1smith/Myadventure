@@ -11,7 +11,7 @@ body{
 
 	.kitten {
 	
-	content:url(images/kitten-large.png);
+	content:url(kitten-large.png);
 	
 		}
 		body{
@@ -23,7 +23,7 @@ body{
 
 	.kitten {
 	
-	content:url(images/kitten-medium.png);
+	content:url(kitten-medium.png);
 	
 		}
 		body{
@@ -35,7 +35,7 @@ body{
 
 	.kitten {
 	
-	content:url(images/kitten-small.png);
+	content:url(kitten-small.png);
 	
 		}
 		body{
@@ -47,7 +47,7 @@ body{
 
 	.popup {
 	
-	content:url(images/kittyloaf.gif);
+	content:url(kittyloaf.gif);
 	
 		}
 		body{
