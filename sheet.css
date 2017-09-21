@@ -7,22 +7,28 @@ body{
 
 	
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 1000px) {
 
 	.kitten {
 	
 	content:url(images/kitten-large.png);
 	
 		}
+		body{
+			background-color: green;
+}
 }
 	
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 999px) {
 
 	.kitten {
 	
 	content:url(images/kitten-medium.png);
 	
 		}
+		body{
+			background-color:pink;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -32,14 +38,20 @@ body{
 	content:url(images/kitten-small.png);
 	
 		}
+		body{
+			background-color:yellow;
+}
 }
 
 @media screen and (max-width: 400px) {
 
-	.kitten {
+	.popup {
 	
 	content:url(images/kittyloaf.gif);
 	
+		}
+		body{
+			background-color: purple;
 }
 }
 	
